@@ -1,4 +1,4 @@
-with open("input.txt", "r") as file:
+with open("input.txt", "r", encoding='utf-8') as file:
     contents = file.readlines()
     str1 = contents[0]
     str2 = contents[1]
